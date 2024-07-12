@@ -82,7 +82,13 @@ export default function Home() {
           <span>Post</span>
         </button>
       </div>
-      <div className="col-span-5 border-r-2 border-r-[#EFF3F4] ">
+      <div className="col-span-5 border-r-2 border-r-[#EFF3F4] h-screen overflow-y-scroll no-scrollbar scroll-m-0 ">
+        <Feedcard />
+        <Feedcard />
+        <Feedcard />
+        <Feedcard />
+        <Feedcard />
+        <Feedcard />
         <Feedcard />
         <Feedcard />
         <Feedcard />

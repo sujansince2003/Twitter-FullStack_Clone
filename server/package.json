@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p .",
+    "start": "node build/index",
+    "dev": "tsc-watch --onSuccess \"npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "@types/node-fetch": "^2.6.11",
+    "express": "^4.19.2",
+    "graphql": "^16.9.0"
+  }
+}

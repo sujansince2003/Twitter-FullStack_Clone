@@ -15,7 +15,11 @@ datasource db {
 }
 
 model User {
-  id    Int     @id @default(autoincrement())
-  email String  @unique
-  name  String?
+  id         Int      @id @default(autoincrement())
+  email      String   @unique
+  fname      String?
+  lname      String
+  profileImg String
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
 }

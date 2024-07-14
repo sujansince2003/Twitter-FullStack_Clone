@@ -7,7 +7,7 @@ import { CgMoreO } from "react-icons/cg";
 import { MdMoreHoriz } from "react-icons/md";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { Feedcard } from "./Components";
+import { Feedcard, CreateAccount } from "./Components";
 
 export default function Home() {
   interface SideItemsInterface {
@@ -93,7 +93,9 @@ export default function Home() {
         <Feedcard />
         <Feedcard />
       </div>
-      <div className="col-span-4">fd</div>
+      <div className="col-span-4 ">
+        <CreateAccount />
+      </div>
     </div>
   );
 }

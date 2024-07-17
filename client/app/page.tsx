@@ -58,7 +58,7 @@ export default function Home() {
   console.log(pathname);
 
   return (
-    <div className="grid grid-cols-12 h-screen  border-2 border-black mx-28 ">
+    <div className="grid grid-cols-12 h-screen   mx-28 ">
       <div className="col-span-3 p-4 gap-2 flex flex-col justify-start border-r-2 border-r-[#EFF3F4] ">
         <div className="text-4xl  w-fit rounded-full p-2 hover:bg-gray-200">
           <FaXTwitter />

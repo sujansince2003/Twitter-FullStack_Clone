@@ -28,7 +28,7 @@ const Feedcard = () => {
             className="rounded-full "
           />
         </div>
-        <div className="col-span-11 flex gap-2 flex-col border-2 border-red-200 relative ">
+        <div className="col-span-11 flex gap-2 flex-col  relative ">
           <div className="flex items-center justify-between">
             <div className="flex gap-1 ">
               <Link href={"/user"} className="font-semibold ">
@@ -55,10 +55,8 @@ const Feedcard = () => {
             )}
           </div>
           <p>
-            I still remember how Virat Kohli led India to a victory in the
-            Under-19 World Cup of 2008 His announcement of retirement from T20s
-            after today’s World Cup victory is truly an end of an era. What a
-            career!
+            Javascript is fun Javascript is fun Javascript is fun Javascript is
+            fun Javascript is fun Javascript is fun Javascript is fun
           </p>
           <div className="flex gap-3 justify-between items-center">
             <div className="flex gap-9">
